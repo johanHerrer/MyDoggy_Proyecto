@@ -1,0 +1,8 @@
+modelo\Validar.class
+modelo\Conexion.class
+com\mycompany\myfoggyfinal\resources\JakartaEE10Resource.class
+modelo\UsuarioDAO.class
+modelo\Usuario.class
+com\mycompany\myfoggyfinal\JakartaRestConfiguration.class
+Controlador.class
+modelo\Perro.class

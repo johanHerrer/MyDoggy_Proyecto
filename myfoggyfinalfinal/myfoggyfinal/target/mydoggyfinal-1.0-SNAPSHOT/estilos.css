@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(https://fotografias.lasexta.com/clipping/cmsimages01/2021/04/13/691007CD-7D9C-4584-80A7-70F8576F52E3/98.jpg?crop=3704,2084,x0,y192&width=1900&height=1069&optimize=high&format=webply);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: #1a2537;
+    font-size: 30px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.number{
+    margin-bottom: 15px;
+    border: 0px;
+    width: 400px;
+    height: 35px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.select {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    width: 100%; /* Agregamos un ancho del 100% para que ocupe todo el espacio disponible */
+}
+
+.options {
+    padding: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+.link2{
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+}
+.link:hover{
+    color: cadetblue;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+/* Estilo básico para el select */
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+
+/* Cambia el aspecto de la flecha desplegable */
+select::-ms-expand, select::-webkit-scrollbar {
+    display: none;
+}
+select:focus {
+    outline: none;
+}
+
+/* Cambia el aspecto de las opciones dentro del select */
+option {
+    padding: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+td.today {
+    background-color: #f2f2f2;
+}
+td.event {
+    background-color: #ffc107;
+}
+
+.Tabla{
+    font-size: 20px;
+    border-radius: 3px;
+    width: 70%;
+    background-color: #aaa;
+}
